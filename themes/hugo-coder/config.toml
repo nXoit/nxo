@@ -1,0 +1,68 @@
+baseurl = "https://nxo.it"
+title = "nXo"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+# disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "nXo"
+  info = "... gaming since 2oo2 ..."
+  description = "nXo website"
+  keywords = "multigaming,esports,games"
+  avatarurl = "images/nxo.png"
+  #gravatar = "john.doe@example.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2002
+
+  enableTwemoji = true
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Discord"
+  icon = "fa fa-discord fa-2x"
+  weight = 1
+  url = "https://discord.nxo.it"
+[[params.social]]
+  name = "Steam"
+  icon = "fa fa-steam-square fa-2x"
+  weight = 2
+  url = "https://steamcommunity.com/groups/nxo"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-wheelchair-alt  fa-2x fa-spin"
+  weight = 3
+  url = "https://nxo.it/"
+
+# Menu links
+[[menu.main]]
+  name = "Contacts"
+  weight = 1
+  url  = "contact/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"

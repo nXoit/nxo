@@ -1,0 +1,4 @@
+baseURL = 'https://nxo.it/'
+languageCode = 'en-us'
+title = 'nXo Site'
+theme = 'hugo-coder' 
